@@ -1,0 +1,42 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    border-bottom: 1px solid white;
+    & .sections {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 200px;
+        p {
+            color: rgb(187, 182, 182);
+            word-spacing: 7px;
+            margin: 0%;
+            padding-top: 30px;
+        }
+        .right {
+            display: flex;
+            justify-content: center;
+            .box {
+                width: 200px;
+                height: 120px;
+                border: 1px solid gray;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                & * {
+                    color: gray;
+                    margin: 0%;
+                    padding: 0px;
+                    padding-left: 10px;
+                }
+                #pp {
+                    color: white;
+                    padding-top: 15px;
+                    border-bottom: 1px solid gray;
+                    padding-bottom: 5px;
+                }
+            }
+        }
+    }
+}

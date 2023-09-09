@@ -1,0 +1,52 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    & .discribe {
+        padding: 10px 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .left {
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+            p {
+                color: rgb(161, 159, 159);
+                font-size: 18px;
+                word-spacing: 5px;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+                width: fit-content;
+                padding: 5px 15px;
+                border: 1px solid #C778DD;
+            }
+        }
+        .right {
+            display: flex;
+            justify-content: center;
+            width: max-content;
+            position: relative;
+            img {
+                height: 507px;
+                width: 380px;
+                margin: 0%;
+            }
+            #img2 {
+                position: absolute;
+                width: 80px;
+                height: 80px;
+                top: 70px;
+                left: 10px;
+            }
+            #img3 {
+                position: absolute;
+                width: 120px;
+                height: 70px;
+                top: 270px;
+                left: 250px;
+            }
+        }
+    }
+}

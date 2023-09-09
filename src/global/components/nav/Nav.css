@@ -1,0 +1,22 @@
+.nav {
+    padding: 25px 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav > .navs {
+    display: flex;
+    gap: 20px;
+}
+.nav > .navs a {
+    color: white;
+    text-decoration: none;
+}
+.nav > .navs a::before {
+    content: "#";
+    color: #C778DD;
+}
+.nav > .navs > select {
+    background-color: transparent;
+    color: white;
+}

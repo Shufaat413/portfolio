@@ -1,0 +1,16 @@
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 570px;
+    & a {
+        color: white;
+        text-decoration: none;
+        margin-top: 70px;
+    }
+}
+.cardContainer {
+    padding: 10px 180px;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}

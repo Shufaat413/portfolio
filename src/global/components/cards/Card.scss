@@ -1,0 +1,40 @@
+.projectCardContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid white;
+    color: white;
+    padding-bottom: 5px;
+    > * {
+      padding: 10px;
+    }
+    > img {
+      width: 100%;
+      padding: 0;
+    }
+    > .stack {
+      display: flex;
+      gap: 10px;
+      color: #abb2bf;
+      flex-wrap: wrap;
+      border-bottom: 1px solid white;
+    }
+    > p {
+      color: #abb2bf;
+      margin: 0%;
+    }
+    > h3 {
+      font-size: 24px;
+      margin: 0;
+    }
+    > .buttonContainer {
+      display: flex;
+      flex-direction: row;
+      > a {
+        text-decoration: none;
+        color: white;
+        padding: 7px 15px;
+        border: 1px solid #c778dd;
+      }
+    }
+  }

@@ -1,0 +1,29 @@
+.contentHeading {
+    padding: 10px 200px;
+    margin: 0;
+    margin-top: 50px;
+    position: relative;
+    & h3 {
+        margin: 0;
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    ::after {
+        content: "";
+        width: 511px;
+        height: 2px;
+        background-color: blueviolet;
+        position: absolute;
+        top: 30px;
+        left: 320px;
+    }
+    ::before {
+        content: "#";
+        font-size: 25px;
+        color: blueviolet;
+        position: absolute;
+        top: 12px;
+        left: 185px;
+    }
+}

@@ -1,0 +1,90 @@
+.banner {
+    padding: 10px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner > .left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.banner > .left > h1 {
+    color: white;
+    margin: 0;
+    font-size: 30px;
+    word-spacing: 2px;
+    padding-top: 70px;
+}
+.banner > .left > h1 span {
+    color: blueviolet;
+}
+.banner > .left > p {
+    color:  gray;
+}
+.banner > .left > a {
+    border: solid 1px #C778DD;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    width: fit-content;
+}
+.banner > .right > .top img {
+    width: 457px;
+    height: 366px;
+    z-index: 2;
+}
+.banner > .right {
+    margin: 0%;
+}
+.banner > .right > .top {
+    position: relative;
+    margin: 0%;
+}
+.banner > .right > .top::before {
+    content: "";
+    background: url("../../../assists/Logo.png");
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 150px;
+    height: 150px;
+    background-size: contain;;
+    z-index: -1;
+}
+.banner > .right > .top::after {
+    content: "";
+    background: url("../../../assists/Dots.png");
+    display: inline-block;
+    position: absolute;
+    right:  18px;
+    bottom: 60px;
+    width: 85px;
+    height: 85px;
+    background-size: contain;;
+    z-index: 3;
+}
+.banner >  .right > .bottom {
+    margin: 0;
+    border: 1px solid white;
+    position: relative;
+    bottom: 5px;
+}
+.banner > .right > .bottom p {
+    margin: 0%;
+    padding: 5px 10px;
+    color: gray;
+    display: flex;
+    gap: 10px;
+}
+.banner > .right > .bottom p span {
+    color: white;
+}
+.banner > .right > .bottom p::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #C778DD;
+    display: inline-block;
+}

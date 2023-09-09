@@ -1,0 +1,90 @@
+.mySkills {
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+}
+.sectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  30px 200px;
+    & .left {
+        position: relative;
+        & img {
+            width: 63px;
+            height: 63px;
+            position: absolute;
+        }
+        #img2 {
+            top: 120px;
+            width: 100px;
+            height: 100px;
+            left: 30px;
+        }
+        #img3 {
+            left: 180px;
+            top: 90px;
+        }
+        .box1 {
+            width: 86px;
+            height: 86px;
+            position: absolute;
+            left: 230px;
+            top: -30px;
+            border: 1px solid gray;
+        }
+        .box2 {
+            width: 52px;
+            height: 52px;
+            position: absolute;
+            left: 285px;
+            top: 140px;
+            border: 1px solid gray;
+        }
+    }
+    .right {
+        position: relative;
+        gap: 10px;
+        & .skillName {
+            width: 178px;
+            height: auto;
+            position: absolute;
+            margin-left: 10px;
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            h6 {
+                color: white;
+                margin: 0%;
+                padding: 5px;
+                font-size: 15px;
+                font-weight: 600;
+                border-bottom: 1px solid gray;
+            }
+            p {
+                margin: 0;
+                padding: 5px;
+                color: gray;
+                word-spacing: 8px;
+            }
+        } 
+        #three {
+            right: -20px;
+        }
+        #two {
+            right: 170px;
+        }
+        #one {
+            right: 360px;
+        }
+        #four {
+            right: 170px;
+            top: 100px;
+        }
+        #five {
+            right: -20px;
+            top: 120px;
+        }
+    }
+}
