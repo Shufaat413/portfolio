@@ -1,0 +1,27 @@
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 200px;
+    & .left {
+
+        * {
+            color: white;
+        }
+        a {
+            color: gray;
+            margin-left: 10px;
+        }
+    }
+    .right {
+
+        * {
+            color: white;
+        }
+    }
+}
+#fot-p  {
+    padding-top: -10px;
+    text-align: center;
+    color: gray;
+}
