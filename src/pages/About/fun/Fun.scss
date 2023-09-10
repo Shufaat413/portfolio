@@ -1,0 +1,52 @@
+.funContainer {
+    padding: 50px 200px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+    border-bottom: 1px solid gray;
+    h1 {
+        color: white;
+        font-weight: 600;
+        span {
+            color: #C778DD;
+        }
+    }
+    .fun {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+        .left {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            flex-wrap: wrap;
+            p {
+                color: gray;
+                margin: 0%;
+                padding: 7px;
+                border: 1px solid gray;
+                width: fit-content;
+                span {
+                    color: white;
+                }
+            }
+        }
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 70px;
+                height: 70px;
+            }
+            #im2 {
+                width: 90px;
+                height: 90px;
+                position: relative;
+                right: 20px;
+                top: 100px;
+            }
+        }
+    }
+}

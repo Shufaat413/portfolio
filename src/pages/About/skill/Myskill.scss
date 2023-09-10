@@ -1,0 +1,37 @@
+.head {
+    padding: 0px 200px;
+    margin: 0%;
+    h1 {
+        color: white;
+        font-weight: 600;
+        span {
+            color:#C778DD;
+        }
+    }
+}
+.skillContainer {
+    padding: 0px 200px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    .skill {
+        width: fit-content;
+        height: fit-content;
+        border: 1px solid gray;
+        h6 {
+            color: white;
+            margin: 0%;
+            border-bottom: 1px solid gray;
+            padding: 8px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        p {
+            margin: 0%;
+            padding: 0px;
+            color: gray;
+            padding: 8px;
+        }
+    }
+}

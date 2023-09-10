@@ -1,0 +1,29 @@
+.introContainer {
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & .discript {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        p {
+            color: gray;
+            padding: 0;
+            margin: 0;
+        }
+        #p1 {
+            padding-top: 100px;
+        }
+    }
+    .pic {
+        img {
+            width: 340px;
+            height: 500px;
+            margin: 0%;
+            position: relative;
+            top: -80px;
+        }
+    }
+}

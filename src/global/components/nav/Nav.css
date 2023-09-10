@@ -7,6 +7,7 @@
 .nav > .navs {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 .nav > .navs a {
     color: white;
@@ -19,4 +20,22 @@
 .nav > .navs > select {
     background-color: transparent;
     color: white;
+}
+
+.icons {
+    position: absolute;
+    width: 30px;
+    height: 250px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    gap: 5px;
+}
+.icons > .line {
+    width: 2px;
+    height: 130px;
+    background-color: grey;
 }

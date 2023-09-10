@@ -30,11 +30,23 @@
                     padding: 0px;
                     padding-left: 10px;
                 }
+                p {
+                    span {
+                        padding-right: 15px;
+                    }
+                }
                 #pp {
                     color: white;
                     padding-top: 15px;
                     border-bottom: 1px solid gray;
                     padding-bottom: 5px;
+                }
+                a {
+                    span {
+                        padding: 0%;
+                        margin: 0%;
+                        padding-right: 5px;
+                    }
                 }
             }
         }

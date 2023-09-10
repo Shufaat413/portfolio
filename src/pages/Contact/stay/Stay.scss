@@ -1,0 +1,66 @@
+.contactContainer {
+    padding: 0px 0px;
+    border: none;
+    & .stay {
+        padding: 0px 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        > p {
+            color: gray;
+        }
+        .support {
+            width: fit-content;
+            height: fit-content;
+            padding: 10px;
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            p {
+                color: white;
+                margin: 0%;
+                padding: 0px;
+            }
+            #p2 {
+                color: gray;
+            }
+            a {
+                text-decoration: none;
+                color: gray;
+                padding: 0%;
+                margin: 0%;
+                span {
+                    margin: 0%;
+                    padding: 0%;
+                    padding-right: 10px;
+                }
+            }
+
+        }
+    }
+    .media1 {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 200px;
+        
+        h1 {
+            color: white;
+            font-weight: 600;
+            span {
+                color: #C778DD;
+            }
+        }
+        .medIcons {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            a {
+                text-decoration: none;
+                color: gray;
+            }
+        }
+    }
+    
+}
