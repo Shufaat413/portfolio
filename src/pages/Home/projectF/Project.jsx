@@ -6,7 +6,7 @@ import Card from "../../../global/components/cards/Card";
 const Project = () => {
     return (
         <>
-        <div className="projectContainer">
+        <div className="projectContainer2">
             <div><Heading title="Projects" /></div>
             <a href="">View All ~~{">"}</a>
         </div>

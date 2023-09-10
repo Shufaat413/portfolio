@@ -4,7 +4,7 @@ import Card from "./../../../global/components/cards";
 
 function ProjectO() {
   return (
-    <div className="projectContainer">
+    <div className="projectContainer1">
       <h1>
         <span>#</span> Complete-apps
       </h1>
